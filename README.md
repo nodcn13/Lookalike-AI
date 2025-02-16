@@ -13,14 +13,14 @@ An AI-powered web application that analyzes uploaded photos and identifies which
 
 - **Frontend**: React + Vite
 - **Backend**: Node.js + Express
-- **AI**: Deep Infra Vision API
+- **AI**: Llama-3.2-11B-Vision-Instruct
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js 18 or higher
-- Deep Infra API key
+- OpenAI Chat completions compatible endpoint
 
 ### Installation
 
