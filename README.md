@@ -36,7 +36,13 @@ cd Lookalike-AI
 ```bash
 cd server && npm install && cd ../client && npm install
 ```
-4. Set up your Deep Infra API key in the `.env` file in the `server` directory.
+4. Set up your Deep Infra API key in the `.env` file in the `server` directory. Make sure your model can take images as input. Make sure endpont ends with /chat/completions.
+```bash
+    API_KEY=your_api_key_here
+    API_URL=OpenAI_Chat_completions_compatible_endpoint
+    VISION_MODEL=your_model_here
+    PORT=5001
+``` 
 
 5. Start the development server on port 5001:
 ```bash
